@@ -4,14 +4,17 @@
 
 int main()
 {
-	double radius=5.67;
+	double radius;
 	double area,perimeter;
+
+	printf("\n\nPlease enter the radius:\n");
+	scanf("%lf",&radius);
 
 	area = PI*radius*radius;
 	perimeter = 2*radius*PI;
 
-	printf("AREA = %lf",area);
-	printf("PERIMETER = %lf",perimeter);
+	printf("\n\nAREA = %lf",area);
+	printf("\nPERIMETER = %lf\n\n",perimeter);
 
 	return 0;
 }
